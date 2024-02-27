@@ -2,8 +2,8 @@ import { createSlice } from "@reduxjs/toolkit";
 
 const initialState = {
     isLoggedIn: localStorage.getItem('isLoggedIn') || false,
-    role: localStorage.setItem('role') || "",
-    data: localStorage.setItem('data') || {}
+    // role: localStorage.setItem('role') || "",
+    // data: localStorage.setItem('data') || {}
 };
 
 const autiSlice = createSlice({
